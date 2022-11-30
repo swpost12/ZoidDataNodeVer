@@ -1,0 +1,22 @@
+{
+  "name": "nodeprojects",
+  "version": "1.0.0",
+  "description": "zoidServer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swpost12/ZoidDataNodeVer.git"
+  },
+  "author": "sameul post",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swpost12/ZoidDataNodeVer/issues"
+  },
+  "homepage": "https://github.com/swpost12/ZoidDataNodeVer#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
