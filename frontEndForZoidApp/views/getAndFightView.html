@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" 
+    href="E:\revatureWork\projects\playGround\nodeProjects\frontEndForZoidApp\style\zoidFight.css">
+
+
+
+    <script src="E:\revatureWork\projects\playGround\nodeProjects\frontEndForZoidApp\javascript\getZoid.js"></script>
+
+
+</head>
+<body>
+    <h1>Zoid Details</h1>
+
+    <div class="card" id="showInfo">
+
+        <label for="findSingle">Find zoid by id</label>
+        <input type="number" id="findSingle">
+        <button type="button" onclick="getSingleZoid()">Search</button>
+
+        <span> Name: </span> <span id="nameDysplay"></span><br>
+        <span>Color:</span><span id="colorDysplay"></span><br>
+
+        <span>HP: </span> <span id="hpDysplay"></span><br>
+        <span>Def:</span> <span id="defDysplay"></span><br>
+        <span>Atk: </span> <span id="atkDysplay"></span><br>
+        <span>EvaChance:</span> <span id="evaChanceDysplay"></span><br>
+
+
+    </div>
+
+    <h2>enter two Ids and see witch one comes out on top</h2>
+
+    <div class="card" id="fightCard">
+        <div>id</div>
+        <input type="number" name="" id="zoid1">
+        <span>vs</span>
+        <input type="number" name="" id="zoid2">
+        <button type="button" onclick="fightZoid()">fight</button>
+        <h3>the winner is </h3>
+        <p id="winner"></p>
+    </div>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

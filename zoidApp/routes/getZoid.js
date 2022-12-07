@@ -24,7 +24,7 @@ router.get("/",function(req,res,next){
 router.get("/:id",(req,res,next)=>{
     let id=parseInt(req.params.id);
     let getZoid=zoidList.find((zoid)=>{
-        return zoid.id=id;
+        return zoid.id==id;
     })
     res.json(getZoid);
 })
